@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms" 
+                 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+                 xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+                 x:Class="TallySoftShared.ClearCurrentPopup" 
+                 Padding = "0, 0, 0, 0">
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Padding = "15, 0, 15, 0" Opacity = "1.0">
+        <Frame BackgroundColor="White">
+            <StackLayout Spacing="10">
+                <Image x:Name="CheckOrUnCheckImg" Source="uncheck.png" WidthRequest="24" HeightRequest="21" HorizontalOptions="Start" TranslationX="50" TranslationY="30">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="CheckMarkTapped"  NumberOfTapsRequired="1" />
+                    </Image.GestureRecognizers>
+                </Image>
+                <Label x:Name="ClearFileInfoLabel"  FontSize="25"
+                           HorizontalOptions="StartAndExpand"
+                           TranslationX="80">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <FormattedString.Spans>
+                                <Span FontAttributes="Bold"
+                      ForegroundColor="Black"
+                      Text="Clear the file" />
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label FontSize="16"
+               HorizontalOptions="StartAndExpand"
+               VerticalOptions="StartAndExpand">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <FormattedString.Spans>
+                                <Span ForegroundColor="Gray" Text="Check to  confirm action and keep the  current file name but clear all data in the  cycle count." />
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <StackLayout x:Name="btnLayout"  Margin="5"
+                                 HorizontalOptions="CenterAndExpand"
+                                 Orientation="Horizontal"
+                                 VerticalOptions="End">
+                    <Button x:Name="OKButton"
+                  BackgroundColor="Silver"
+                  Clicked="OnOk"
+                  Font="15"
+                  FontAttributes="Bold"
+                  HorizontalOptions="Start"
+                  Text="OK"
+                  TextColor="White"
+                  WidthRequest="80"
+                  HeightRequest="35" IsEnabled="false"/>
+                    <Button x:Name="CancelButton1"  BackgroundColor="#70B856"
+                  Clicked="OnCancel"
+                  Font="15"
+                  FontAttributes="Bold"
+                  HorizontalOptions="End"
+                  Text="Cancel"
+                  TextColor="White"
+                  WidthRequest="80"
+                  HeightRequest="35" />
+                </StackLayout>
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+</pages:PopupPage>

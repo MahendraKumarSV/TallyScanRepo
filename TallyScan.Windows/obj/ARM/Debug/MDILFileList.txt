@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Files>
+  <file>\Plugin.Messaging.Abstractions.dll</file>
+  <file>\Plugin.Messaging.dll</file>
+  <file>\Plugin.Permissions.Abstractions.dll</file>
+  <file>\Plugin.Permissions.dll</file>
+  <file>\Rg.Plugins.Popup.dll</file>
+  <file>\SQLite.Net.Async.dll</file>
+  <file>\SQLite.Net.dll</file>
+  <file>\SQLite.Net.Platform.WinRT.dll</file>
+  <file>\TallyScan.Windows8_1.exe</file>
+  <file>\Xamarin.Forms.Core.dll</file>
+  <file>\Xamarin.Forms.Platform.dll</file>
+  <file>\Xamarin.Forms.Platform.WinRT.dll</file>
+  <file>\Xamarin.Forms.Platform.WinRT.Phone.dll</file>
+  <file>\Xamarin.Forms.Xaml.dll</file>
+  <file>\Acr.BarCodes.dll</file>
+  <file>\Acr.BarCodes.Interface.dll</file>
+</Files>

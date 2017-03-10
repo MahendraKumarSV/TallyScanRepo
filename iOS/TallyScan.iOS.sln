@@ -1,0 +1,20 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TallyScan.iOS", "TallyScan.iOS.csproj", "{18948C85-4C74-49B1-A798-034F36058DD8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|iPhone = Release|iPhone
+		Debug|iPhone = Debug|iPhone
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18948C85-4C74-49B1-A798-034F36058DD8}.Release|iPhone.ActiveCfg = Release|iPhone
+		{18948C85-4C74-49B1-A798-034F36058DD8}.Release|iPhone.Build.0 = Release|iPhone
+		{18948C85-4C74-49B1-A798-034F36058DD8}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{18948C85-4C74-49B1-A798-034F36058DD8}.Debug|iPhone.Build.0 = Debug|iPhone
+		{18948C85-4C74-49B1-A798-034F36058DD8}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{18948C85-4C74-49B1-A798-034F36058DD8}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+	EndGlobalSection
+EndGlobal

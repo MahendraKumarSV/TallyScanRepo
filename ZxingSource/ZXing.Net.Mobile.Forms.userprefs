@@ -1,0 +1,23 @@
+﻿<Properties StartupItem="TallyScan/iOS/TallyScan.iOS.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TallyScan/TallySoftShared/TallySoftShared.cs">
+    <Files>
+      <File FileName="Source/ZXing.Net.Mobile.Android/ZxingOverlayView.cs" Line="26" Column="3" />
+      <File FileName="TallyScan/TallySoftShared/TallySoftShared.cs" Line="64" Column="36" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ZXing.Net.Mobile.Forms" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/mahendrakumar/Downloads/ZXing.Net.Mobile-master 3/Source/ZXing.Net.Mobile.Android/ZXingSurfaceView.cs" line="558" column="21" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TallyScan.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.5E14E148-7F95-475F-84FB-44F7E1F478C1" />
+</Properties>

@@ -1,0 +1,2 @@
+C:\Users\mahendra.kumar\Downloads\TallyScanSVN\TallyScan Latest Code\TallyScan Latest Code\ZxingSource\Source\ZXing.Net.Mobile.Android\obj\Debug\ZXing.Net.Mobile.Android.csprojResolveAssemblyReference.cache
+C:\Users\mahendra.kumar\Downloads\TallyScanSVN\TallyScan Latest Code\TallyScan Latest Code\ZxingSource\Source\ZXing.Net.Mobile.Android\obj\Debug\ZXingNetMobile.dll

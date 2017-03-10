@@ -1,0 +1,12 @@
+/Users/mahendrakumar/Desktop/TallyScan Latest Code/ZxingSource/Source/ZXing.Net.Mobile.Forms.Android/obj/Release/MonoAndroid,Version=v6.0.AssemblyAttribute.cs
+/Users/mahendrakumar/Desktop/TallyScan Latest Code/ZxingSource/Source/ZXing.Net.Mobile.Forms.Android/obj/Release/ZXing.Net.Mobile.Forms.Android.obj.Release.__AndroidLibraryProjects__.zip
+/Users/mahendrakumar/Desktop/TallyScan Latest Code/ZxingSource/Build/Forms/Release/android/ZXing.Net.Mobile.Forms.Android.dll.mdb
+/Users/mahendrakumar/Desktop/TallyScan Latest Code/ZxingSource/Build/Forms/Release/android/ZXing.Net.Mobile.Forms.Android.dll
+/Users/mahendrakumar/Desktop/TallyScan Latest Code/ZxingSource/Build/Forms/Release/android/ZXing.Net.Mobile.Forms.Android.apk
+/Users/mahendrakumar/Desktop/TallyScan Latest Code/ZxingSource/Source/ZXing.Net.Mobile.Forms.Android/obj/Release/android/bin/ZXing.Net.Mobile.Forms.Android.apk
+/Users/mahendrakumar/Desktop/TallyScan Latest Code/ZxingSource/Source/ZXing.Net.Mobile.Forms.Android/obj/Release/res/values/strings.xml
+/Users/mahendrakumar/Desktop/TallyScan Latest Code/ZxingSource/Source/ZXing.Net.Mobile.Forms.Android/obj/Release/R.cs.flag
+/Users/mahendrakumar/Desktop/TallyScan Latest Code/ZxingSource/Build/Forms/Release/android/ZXing.Net.Mobile.Forms.Android-Signed.apk
+/Users/mahendrakumar/Desktop/TallyScan Latest Code/ZxingSource/Source/ZXing.Net.Mobile.Forms.Android/obj/Release/uploadflags.txt
+/Users/mahendrakumar/Desktop/TallyScan Latest Code/ZxingSource/Source/ZXing.Net.Mobile.Forms.Android/obj/Release/ZXing.Net.Mobile.Forms.Android.dll
+/Users/mahendrakumar/Desktop/TallyScan Latest Code/ZxingSource/Source/ZXing.Net.Mobile.Forms.Android/obj/Release/ZXing.Net.Mobile.Forms.Android.dll.mdb

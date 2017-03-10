@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{A25D4CDF-F485-48CC-BCC1-039A50A12D74}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>TallySoftShared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)TallySoftShared.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\LocalStrings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\ScanDataTable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\CurrentFileName.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\DatabaseRepository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\ConfigurationPage\ConfigurationPage.xaml.cs">
+      <DependentUpon>ConfigurationPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\DependencyServiceClasses\DeviceInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\DependencyServiceClasses\ISaveAndLoad.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\HelpPage\HelpPage.xaml.cs">
+      <DependentUpon>HelpPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\MainMenu\MainMenu.xaml.cs">
+      <DependentUpon>MainMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\MenuClasses\MenuCell.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\MenuClasses\MenuListData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\MenuClasses\MenuListView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\MenuClasses\MenuPage.xaml.cs">
+      <DependentUpon>MenuPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\ScanCycleCountClasses\NativeCell.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\ScanCycleCountClasses\NativeCellPage.xaml.cs">
+      <DependentUpon>NativeCellPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\PopupPage\PopUpPage.xaml.cs">
+      <DependentUpon>PopUpPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\RootPage\RootPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\DependencyServiceClasses\MyEntry.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\ClearConentPoup\ClearCurrentPopup.xaml.cs">
+      <DependentUpon>ClearCurrentPopup.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\ClearConentPoup\UserAnimation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\ListViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\FileManager\FileManagerPage.xaml.cs">
+      <DependentUpon>FileManagerPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\MenuClasses\SliderMenuItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\StoredFileName.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\ScanCycleCountClasses\ScanCycleCountCustomCell.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\FileManager\CustomCell.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Save\SaveFile.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Save&amp;Email\Save_Email.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SQLite.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Save&amp;End\Save_End.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\ConfigurationPage\ConfigurationPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\HelpPage\HelpPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\MainMenu\MainMenu.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\MenuClasses\MenuPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\ScanCycleCountClasses\NativeCellPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\PopupPage\PopUpPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\ClearConentPoup\ClearCurrentPopup.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\FileManager\FileManagerPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Model\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Views\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Views\ConfigurationPage\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Views\DependencyServiceClasses\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Views\HelpPage\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Views\MainMenu\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Views\MenuClasses\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Views\ScanCycleCountClasses\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Views\RootPage\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Views\PopupPage\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Views\Save\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Views\Save&amp;Email\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Views\ClearConentPoup\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Views\FileManager\" />
+    <Folder Include="$(MSBuildThisFileDirectory)ViewModels\" />
+  </ItemGroup>
+</Project>

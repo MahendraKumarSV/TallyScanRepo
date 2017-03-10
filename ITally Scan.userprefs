@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="iOS/ITally Scan.iOS.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="Android.E8AZCY240834" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TallySoftShared/TallySoftShared.cs">
+    <Files>
+      <File FileName="TallySoftShared/TallySoftShared.cs" Line="185" Column="78" />
+      <File FileName="Droid/MainActivity.cs" Line="46" Column="28" />
+      <File FileName="Droid/Properties/AndroidManifest.xml" Line="12" Column="12" />
+      <File FileName="TallySoftShared/Save.xaml.cs" Line="87" Column="5" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ITally_220Scan.Android AndroidDesignerPreferredDevice="Nexus 4" />
+</Properties>

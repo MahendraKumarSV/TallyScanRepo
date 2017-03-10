@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TallySoftShared.HelpPage">
+	<ContentPage.Content>
+	<StackLayout BackgroundColor="White"
+                     HorizontalOptions="LayoutOptions.FillAndExpand"
+                     Padding="0"
+                     Spacing="0"
+                     VerticalOptions="LayoutOptions.FillAndExpand">
+			<Image HeightRequest="150"
+                   HorizontalOptions="Center"
+                   Source="tallySoftLogo"
+                   TranslationY="-20"
+                   VerticalOptions="Start"
+                   WidthRequest="200" />
+           
+                <Label Margin="10"
+                       FontSize="15"
+                       HorizontalOptions="CenterAndExpand"
+                       HorizontalTextAlignment="Center"
+                       Text="For any asistance"
+                       TextColor="Black"
+                       TranslationY="-110"
+                       VerticalOptions="EndAndExpand" />
+                <Label Margin="0"
+                       FontSize="16"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center"
+                       Text="Call at 724-873-5264"
+                       TranslationY="-98"
+                       TextColor="Black" >
+				<Label.GestureRecognizers>
+                        <TapGestureRecognizer NumberOfTapsRequired="1"
+                                              Tapped="phoneTapped" />
+                    </Label.GestureRecognizers>
+                </Label>
+                <Label Margin="0"
+                       FontSize="20"
+                       TranslationY="-90"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center"
+                       Text="or"
+                       TextColor="Black" >
+				</Label>
+
+                <Label BackgroundColor="Transparent"
+                       FontSize="16"
+                       HeightRequest="30"
+                       HorizontalOptions="FillAndExpand"
+                       HorizontalTextAlignment="Center"
+                       TranslationY="-80">
+                    <Label.FormattedText TranslationY="-60">
+                        <FormattedString>
+                            <FormattedString.Spans>
+                                <Span ForegroundColor="Black" Text="Email :" />
+                                <Span ForegroundColor="Blue" Text="Support@TallySoft.com" />
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+				<Label.GestureRecognizers>
+                        <TapGestureRecognizer NumberOfTapsRequired="1"
+                                              Tapped="emailTapped" />
+                    </Label.GestureRecognizers>
+                </Label>
+                <Label BackgroundColor="Blue"
+                       HeightRequest="1.5"
+                       HorizontalOptions="Center"
+                       TranslationX="25"
+                       TranslationY="-91"
+                       WidthRequest="170" />
+        </StackLayout>
+	</ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:TallySoftShared" x:Class="TallySoftShared.ConfigurationPage" >
+	<ContentPage.Content>
+	<StackLayout x:Name ="MainStackLayout" Padding="0,90,0,0">
+    <Label x:Name="lblHeader"
+                  BackgroundColor="#1966AF"
+                  HeightRequest="70" />
+	<Button x:Name ="BackButton" Image="back" BackgroundColor="Transparent" Clicked="OnBackButon_click" WidthRequest = "60" HorizontalOptions ="Start" TranslationY = "-60" TextColor = "Black" Font = "16" />
+    <Image x:Name="BackImg"
+                  HeightRequest="30"
+                  HorizontalOptions="Start"
+                  Source="back.png"
+             TranslationX="20"
+                     TranslationY="-45"
+                  WidthRequest="30">
+      <Image.GestureRecognizers>
+        <TapGestureRecognizer x:Name="Back"
+                              NumberOfTapsRequired="1"
+                              Tapped="BackTap" />
+      </Image.GestureRecognizers>
+    </Image>
+	<Label x:Name="ConfigurationLabel" BackgroundColor="Transparent" Text = "Configuration" HorizontalOptions ="Start" TranslationX="-5" TranslationY="-105" Font = "18" TextColor = "White"/>
+	<Image x:Name="TallySoftLogo" HorizontalOptions="Center" WidthRequest="150" Source="tallySoftLogo" HeightRequest="100" TranslationY="-100"/>
+	<ScrollView x:Name = "Scroller" BackgroundColor="Transparent" VerticalOptions="FillAndExpand" TranslationY = "-110" Padding="0,0,0,0" Orientation="Vertical" >
+	<StackLayout Padding="0, 5, 0,-100" x:Name="Container" VerticalOptions="FillAndExpand" Orientation="Vertical" BackgroundColor="Transparent">
+	<Image x:Name="ScannerOrDeviceCheckBox" Source="uncheck.png" WidthRequest="24" HeightRequest="21" HorizontalOptions ="Start" TranslationX = "25" >
+    	<Image.GestureRecognizers>
+			<TapGestureRecognizer Tapped="ScannerOrDeviceCheckBoxTapped"  NumberOfTapsRequired="1" />
+		</Image.GestureRecognizers>
+ 	</Image>
+     <Label x:Name="ScannerInfoLabel" FontSize = "16" TextColor="Black" TranslationX="65" BackgroundColor="Transparent" TranslationY="-27">
+     	<Label.Text>
+     		Use Scanner other than device 
+camera
+     	</Label.Text>
+     </Label>
+     <Image x:Name="QtyCheckBox" Source="uncheck.png" WidthRequest="24" HeightRequest="21" HorizontalOptions ="Start" TranslationX = "25" TranslationY="-20">
+        <Image.GestureRecognizers>
+		<TapGestureRecognizer Tapped="QtyCheckBoxTapped"  NumberOfTapsRequired="1" />
+		</Image.GestureRecognizers>
+     </Image>
+     <Label x:Name="QTYInfoLabel" BackgroundColor="Transparent" FontSize = "16" TextColor="Black" TranslationX="65"  TranslationY="-50">
+     	<Label.Text>
+     		Prompt from "QTY" (Quantity),
+Otherwise the QTY will default
+to 1 for continuous add row on
+scan
+     	</Label.Text>
+     </Label>
+     <Image x:Name="BarcodeCheckBox" Source="uncheck.png" WidthRequest="24" HeightRequest="21" HorizontalOptions ="Start" TranslationX = "25" TranslationY="-40">
+        <Image.GestureRecognizers>
+		<TapGestureRecognizer Tapped="BarcodeCheckBoxTapped"  NumberOfTapsRequired="1" />
+		</Image.GestureRecognizers>
+     </Image>
+     <Label x:Name="BarcodeInfoLabel" BackgroundColor="Transparent" FontSize = "16" TextColor="Black" TranslationX="65"  TranslationY="-70">
+     	<Label.Text>
+     		Append - If an item with the
+Same barcode is scanned, then
+append the QTY (quantity) of the
+duplicate scan
+     	</Label.Text>
+     </Label>
+     <Label x:Name="DefaultEmailLabel" BackgroundColor="Transparent" FontSize = "16" TextColor="#70B856" TranslationX="15" TranslationY="-65" >
+     <Label.Text>
+     		Default
+Email
+     		</Label.Text>
+     </Label>
+  <local:MyEntry x:Name="DefaultEmailField" TextColor="Black" Completed="Entry_Finished" Keyboard="Email" Placeholder="Set Email Here" PlaceholderColor="Gray" TranslationX="80" HorizontalOptions="StartAndExpand" WidthRequest="230" TranslationY="-110" FontSize = "14" HeightRequest="40" BackgroundColor="#F2F2F2"/>
+     <Image x:Name="TestScanCheckBox" Source="uncheck.png" WidthRequest="24" HeightRequest="21" HorizontalOptions ="Start" TranslationX = "25" TranslationY="-92">
+        <Image.GestureRecognizers>
+		<TapGestureRecognizer Tapped="TestScanCheckBoxTapped"  NumberOfTapsRequired="1" />
+		</Image.GestureRecognizers>
+     </Image>
+     <Label x:Name="TestScanInfoLabel" Text = "Test Scan" BackgroundColor="Transparent" FontSize = "16" TextColor="Black" TranslationX="80"  TranslationY="-118" />
+     </StackLayout>
+	</ScrollView>
+	</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

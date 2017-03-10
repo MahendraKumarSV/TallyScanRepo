@@ -1,0 +1,17 @@
+C:\Users\mahendra.kumar\Downloads\TallyScanSVN\TallyScan Latest Code\TallyScan Latest Code\ZxingSource\Source\ZXing.Net.Mobile.Forms.WindowsUniversal\obj\Debug\ZXing.Net.Mobile.Forms.WindowsUniversal.csprojResolveAssemblyReference.cache
+C:\Users\mahendra.kumar\Downloads\TallyScanSVN\TallyScan Latest Code\TallyScan Latest Code\ZxingSource\Build\Forms\Debug\uwp\ZXing.Net.Mobile.Forms.WindowsUniversal.dll
+C:\Users\mahendra.kumar\Downloads\TallyScanSVN\TallyScan Latest Code\TallyScan Latest Code\ZxingSource\Build\Forms\Debug\uwp\ZXing.Net.Mobile.Forms.WindowsUniversal.pdb
+C:\Users\mahendra.kumar\Downloads\TallyScanSVN\TallyScan Latest Code\TallyScan Latest Code\ZxingSource\Build\Forms\Debug\uwp\ZXing.Net.Mobile.Forms.WindowsUniversal.pri
+C:\Users\mahendra.kumar\Downloads\TallyScanSVN\TallyScan Latest Code\TallyScan Latest Code\ZxingSource\Source\ZXing.Net.Mobile.Forms.WindowsUniversal\obj\Debug\ZXing.Net.Mobile.Forms.WindowsUniversal.dll
+C:\Users\mahendra.kumar\Downloads\TallyScanSVN\TallyScan Latest Code\TallyScan Latest Code\ZxingSource\Source\ZXing.Net.Mobile.Forms.WindowsUniversal\obj\Debug\ZXing.Net.Mobile.Forms.WindowsUniversal.pdb
+C:\Users\mahendra.kumar\Downloads\TallyScanSVN\TallyScan Latest Code\TallyScan Latest Code\ZxingSource\Source\ZXing.Net.Mobile.Forms.WindowsUniversal\obj\Debug\priconfig.xml
+C:\Users\mahendra.kumar\Downloads\TallyScanSVN\TallyScan Latest Code\TallyScan Latest Code\ZxingSource\Source\ZXing.Net.Mobile.Forms.WindowsUniversal\obj\Debug\priconfig.xml.intermediate
+C:\Users\mahendra.kumar\Downloads\TallyScanSVN\TallyScan Latest Code\TallyScan Latest Code\ZxingSource\Source\ZXing.Net.Mobile.Forms.WindowsUniversal\obj\Debug\layout.resfiles
+C:\Users\mahendra.kumar\Downloads\TallyScanSVN\TallyScan Latest Code\TallyScan Latest Code\ZxingSource\Source\ZXing.Net.Mobile.Forms.WindowsUniversal\obj\Debug\layout.resfiles.intermediate
+C:\Users\mahendra.kumar\Downloads\TallyScanSVN\TallyScan Latest Code\TallyScan Latest Code\ZxingSource\Source\ZXing.Net.Mobile.Forms.WindowsUniversal\obj\Debug\resources.resfiles
+C:\Users\mahendra.kumar\Downloads\TallyScanSVN\TallyScan Latest Code\TallyScan Latest Code\ZxingSource\Source\ZXing.Net.Mobile.Forms.WindowsUniversal\obj\Debug\resources.resfiles.intermediate
+C:\Users\mahendra.kumar\Downloads\TallyScanSVN\TallyScan Latest Code\TallyScan Latest Code\ZxingSource\Source\ZXing.Net.Mobile.Forms.WindowsUniversal\obj\Debug\pri.resfiles
+C:\Users\mahendra.kumar\Downloads\TallyScanSVN\TallyScan Latest Code\TallyScan Latest Code\ZxingSource\Source\ZXing.Net.Mobile.Forms.WindowsUniversal\obj\Debug\pri.resfiles.intermediate
+C:\Users\mahendra.kumar\Downloads\TallyScanSVN\TallyScan Latest Code\TallyScan Latest Code\ZxingSource\Source\ZXing.Net.Mobile.Forms.WindowsUniversal\obj\Debug\qualifiers.txt
+C:\Users\mahendra.kumar\Downloads\TallyScanSVN\TallyScan Latest Code\TallyScan Latest Code\ZxingSource\Source\ZXing.Net.Mobile.Forms.WindowsUniversal\obj\Debug\qualifiers.txt.intermediate
+C:\Users\mahendra.kumar\Downloads\TallyScanSVN\TallyScan Latest Code\TallyScan Latest Code\ZxingSource\Source\ZXing.Net.Mobile.Forms.WindowsUniversal\obj\Debug\MultipleQualifiersPerDimensionFound.txt

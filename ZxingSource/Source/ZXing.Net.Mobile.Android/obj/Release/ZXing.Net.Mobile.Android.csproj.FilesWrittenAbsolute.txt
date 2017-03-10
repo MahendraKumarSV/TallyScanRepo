@@ -1,0 +1,11 @@
+/Users/mahendrakumar/Desktop/TallyScan Latest Code/ZxingSource/Source/ZXing.Net.Mobile.Android/obj/Release/MonoAndroid,Version=v4.0.3.AssemblyAttribute.cs
+/Users/mahendrakumar/Desktop/TallyScan Latest Code/ZxingSource/Source/ZXing.Net.Mobile.Android/obj/Release/ZXing.Mobile.obj.Release.__AndroidLibraryProjects__.zip
+/Users/mahendrakumar/Desktop/TallyScan Latest Code/ZxingSource/Build/Release/android/ZXingNetMobile.dll
+/Users/mahendrakumar/Desktop/TallyScan Latest Code/ZxingSource/Build/Release/android/ZXingNetMobile.ZXingNetMobile.apk
+/Users/mahendrakumar/Desktop/TallyScan Latest Code/ZxingSource/Source/ZXing.Net.Mobile.Android/obj/Release/android/bin/ZXingNetMobile.ZXingNetMobile.apk
+/Users/mahendrakumar/Desktop/TallyScan Latest Code/ZxingSource/Source/ZXing.Net.Mobile.Android/obj/Release/res/layout/zxingscanneractivitylayout.xml
+/Users/mahendrakumar/Desktop/TallyScan Latest Code/ZxingSource/Source/ZXing.Net.Mobile.Android/obj/Release/res/layout/zxingscannerfragmentlayout.xml
+/Users/mahendrakumar/Desktop/TallyScan Latest Code/ZxingSource/Source/ZXing.Net.Mobile.Android/obj/Release/R.cs.flag
+/Users/mahendrakumar/Desktop/TallyScan Latest Code/ZxingSource/Build/Release/android/ZXingNetMobile.ZXingNetMobile-Signed.apk
+/Users/mahendrakumar/Desktop/TallyScan Latest Code/ZxingSource/Source/ZXing.Net.Mobile.Android/obj/Release/uploadflags.txt
+/Users/mahendrakumar/Desktop/TallyScan Latest Code/ZxingSource/Source/ZXing.Net.Mobile.Android/obj/Release/ZXingNetMobile.dll

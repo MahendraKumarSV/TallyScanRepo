@@ -1,0 +1,5 @@
+C:\Users\mahendra.kumar\Downloads\TallyScan\TallyScan\Plugin.Permissions.Abstractions\bin\Debug\Plugin.Permissions.Abstractions.dll
+C:\Users\mahendra.kumar\Downloads\TallyScan\TallyScan\Plugin.Permissions.Abstractions\bin\Debug\Plugin.Permissions.Abstractions.pdb
+C:\Users\mahendra.kumar\Downloads\TallyScan\TallyScan\Plugin.Permissions.Abstractions\obj\Debug\Plugin.Permissions.Abstractions.csprojResolveAssemblyReference.cache
+C:\Users\mahendra.kumar\Downloads\TallyScan\TallyScan\Plugin.Permissions.Abstractions\obj\Debug\Plugin.Permissions.Abstractions.dll
+C:\Users\mahendra.kumar\Downloads\TallyScan\TallyScan\Plugin.Permissions.Abstractions\obj\Debug\Plugin.Permissions.Abstractions.pdb

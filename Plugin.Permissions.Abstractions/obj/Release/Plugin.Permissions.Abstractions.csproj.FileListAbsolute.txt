@@ -1,0 +1,6 @@
+C:\Users\mahendra.kumar\AppData\Roaming\Skype\My Skype Received Files\TallyScan July 14\TallyScan July 5\Plugin.Permissions.Abstractions\bin\Release\Plugin.Permissions.Abstractions.XML
+C:\Users\mahendra.kumar\AppData\Roaming\Skype\My Skype Received Files\TallyScan July 14\TallyScan July 5\Plugin.Permissions.Abstractions\bin\Release\Plugin.Permissions.Abstractions.dll
+C:\Users\mahendra.kumar\AppData\Roaming\Skype\My Skype Received Files\TallyScan July 14\TallyScan July 5\Plugin.Permissions.Abstractions\bin\Release\Plugin.Permissions.Abstractions.pdb
+C:\Users\mahendra.kumar\AppData\Roaming\Skype\My Skype Received Files\TallyScan July 14\TallyScan July 5\Plugin.Permissions.Abstractions\obj\Release\Plugin.Permissions.Abstractions.csprojResolveAssemblyReference.cache
+C:\Users\mahendra.kumar\AppData\Roaming\Skype\My Skype Received Files\TallyScan July 14\TallyScan July 5\Plugin.Permissions.Abstractions\obj\Release\Plugin.Permissions.Abstractions.dll
+C:\Users\mahendra.kumar\AppData\Roaming\Skype\My Skype Received Files\TallyScan July 14\TallyScan July 5\Plugin.Permissions.Abstractions\obj\Release\Plugin.Permissions.Abstractions.pdb

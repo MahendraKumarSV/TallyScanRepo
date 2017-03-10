@@ -1,0 +1,5 @@
+C:\Users\mahendra.kumar\Downloads\TallyScanSVN\TallyScan Latest Code\TallyScan Latest Code\ZxingSource\Build\Debug\portable\zxing.portable.dll
+C:\Users\mahendra.kumar\Downloads\TallyScanSVN\TallyScan Latest Code\TallyScan Latest Code\ZxingSource\Build\Debug\portable\zxing.portable.pdb
+C:\Users\mahendra.kumar\Downloads\TallyScanSVN\TallyScan Latest Code\TallyScan Latest Code\ZxingSource\Source\ZXing.Net\obj\Debug\zxing.portable.dll
+C:\Users\mahendra.kumar\Downloads\TallyScanSVN\TallyScan Latest Code\TallyScan Latest Code\ZxingSource\Source\ZXing.Net\obj\Debug\zxing.portable.pdb
+C:\Users\mahendra.kumar\Downloads\TallyScanSVN\TallyScan Latest Code\TallyScan Latest Code\ZxingSource\Source\ZXing.Net\obj\Debug\zxing.portable.csprojResolveAssemblyReference.cache

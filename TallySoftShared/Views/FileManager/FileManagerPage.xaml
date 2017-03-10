@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TallySoftShared.FileManagerPage">
+	<ContentPage.Content>
+		<StackLayout>
+		<StackLayout x:Name="stLayoutHeader" Padding="0,0,0,0" Orientation="Horizontal" BackgroundColor="#1966AF" HeightRequest="50">
+        <Image x:Name="BackImg" HeightRequest="25" TranslationY="14" HorizontalOptions="Start"  Source="back.png" WidthRequest="20">
+           <Image.GestureRecognizers> <TapGestureRecognizer x:Name="Back" NumberOfTapsRequired="1" Tapped="BackTap" /></Image.GestureRecognizers>
+        </Image>
+        <Label x:Name="FileManagerLabel" TranslationY="6"  BackgroundColor="Transparent" Text = "FileManager" HorizontalOptions ="Start"  Font="25" TextColor="White"/>
+        <Button x:Name="editBtn1" HeightRequest="25"   HorizontalOptions="End" Text="Edit" TextColor="White"></Button>
+        <Button x:Name="newBtn"  HeightRequest="25"  HorizontalOptions="End" Text="New" TextColor="White"></Button>  
+			</StackLayout>
+		<StackLayout>
+			<Label x:Name="NoFilesAvailableLabel" Text = "No files available" HorizontalOptions = "Center" VerticalOptions = "Center" TranslationY = "180" BackgroundColor="Transparent" Font="20" TextColor="Black"/>
+      <StackLayout Orientation="Vertical" BackgroundColor = "White" x:Name="ListViewLayout" >
+        <ListView x:Name="listView" BackgroundColor = "White" HorizontalOptions="Center" TranslationY = "-10" SeparatorColor="Transparent" HasUnevenRows = "true" RowHeight = "-1">
+        </ListView>
+      </StackLayout>
+      <StackLayout x:Name="bottomStackLayout" Orientation="Horizontal" BackgroundColor="#1966AF" HeightRequest="50" TranslationY="20" >
+        <Button x:Name ="EmailBtn" TranslationX="10" BackgroundColor="Transparent" HorizontalOptions ="Start"  Text ="Email" Font = "18" TextColor="White" />
+        <Button x:Name ="DeleteBtn" BackgroundColor="Transparent" HorizontalOptions ="End"   TranslationX="200" Text ="Delete" Font="18" TextColor="White"/>
+      </StackLayout>
+    </StackLayout>
+			</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

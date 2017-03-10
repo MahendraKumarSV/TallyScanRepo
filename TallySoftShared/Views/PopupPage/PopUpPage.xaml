@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:TallySoftShared" x:Class="TallySoftShared.PopUpPage">
+	<ContentPage.Content>
+		<StackLayout x:Name = "MainStackLayout" Padding="0,0,0,0">
+      <Label x:Name="PopUpLabel" BackgroundColor="Transparent" VerticalOptions="Start"  HorizontalOptions ="Start" TranslationY="5" Font = "18" TextColor = "White"/>
+		<StackLayout Padding="50, 50, 50, 50" Spacing="10">
+			<Label x:Name="headingLabel" Text = "Enter new file name" TextColor = "Black" Font="20" FontAttributes = "Bold"></Label>
+			<local:MyEntry x:Name="entry" Placeholder="Type Here" Focused = "EntryFocussed" PlaceholderColor="Gray" BackgroundColor = "#F2F2F2" TextColor = "Black" FontAttributes = "Bold" HeightRequest="40"/>
+			<Button Text="Ok" Clicked="okBtnClick" BackgroundColor = "#70B856" TextColor = "White" Font = "20" FontAttributes="Bold" />	
+		<Button Text="Cancel" Clicked="cancelBtnClick" BackgroundColor = "#70B856" TextColor = "White" Font = "20" FontAttributes="Bold" />
+		</StackLayout>
+			</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

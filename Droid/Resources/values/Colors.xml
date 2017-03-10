@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="cellback">#ffffff</color>
+   <color name="actionbar">#1966AF</color>
+
+  <color name="primary">#000000</color>
+  <color name="primaryDark">#000000</color>
+  <color name="accent">#1966AF</color>
+</resources>

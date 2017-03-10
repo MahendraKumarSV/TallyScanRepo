@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{18948C85-4C74-49B1-A798-034F36058DD8}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TallySoftShared/Views/FileManager/FileManagerPage.xaml.cs">
+    <Files>
+      <File FileName="TallySoftShared/Views/Save/SaveFile.cs" Line="1" Column="1" />
+      <File FileName="TallySoftShared/Views/FileManager/FileManagerPage.xaml.cs" Line="634" Column="3" />
+      <File FileName="TallySoftShared/Views/ScanCycleCountClasses/NativeCellPage.xaml.cs" Line="156" Column="4" />
+      <File FileName="TallySoftShared/Views/ConfigurationPage/ConfigurationPage.xaml" Line="1" Column="1" />
+      <File FileName="TallySoftShared/Views/ConfigurationPage/ConfigurationPage.xaml.cs" Line="28" Column="3" />
+      <File FileName="TallyScan.UniversalApp/CustomRenderer.cs" Line="23" Column="10" />
+      <File FileName="TallyScan.UniversalApp/App.xaml.cs" Line="1" Column="1" />
+      <File FileName="TallySoftShared/TallySoftShared.cs" Line="216" Column="30" />
+      <File FileName="TallySoftShared/Views/RootPage/RootPage.cs" Line="1" Column="1" />
+      <File FileName="TallySoftShared/Views/ClearConentPoup/ClearCurrentPopup.xaml.cs" Line="65" Column="17" />
+      <File FileName="TallySoftShared/Views/FileManager/CustomCell.cs" Line="380" Column="71" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ZXing.Net.Mobile.Android PreferredExecutionTarget="Android.MonoForAndroid_API_10" />
+  <MonoDevelop.Ide.ItemProperties.TallyScan.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
+</Properties>

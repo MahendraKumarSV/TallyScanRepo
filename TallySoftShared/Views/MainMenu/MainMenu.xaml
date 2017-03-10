@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TallySoftShared.MainMenu" BackgroundColor = "#C2D7EC">
+  <ContentPage.Content>
+    <StackLayout Padding="10, 0, 50, 0">
+      <Label x:Name="titleLabel"
+                       BackgroundColor="Transparent"
+                       Font="30"
+                       HorizontalOptions="Center"
+                       Text="Main Menu"
+                       TextColor="White"
+                       TranslationY="-60"
+                       VerticalOptions="CenterAndExpand" />
+      <Image x:Name="ImgLogo" HorizontalOptions="Center" WidthRequest="150" Source="tallySoftLogo.png" HeightRequest="100" TranslationX="30"/>
+      <StackLayout x:Name="stlContent" Spacing="20"
+                           Padding="30, 0, 0, 0">
+        <Image x:Name="openCurrentImage" Source="open_current.png" HeightRequest="40" >
+          <Image.GestureRecognizers>
+            <TapGestureRecognizer x:Name="openCurrentGesture"
+                                  NumberOfTapsRequired="1"
+                                  Tapped="openTap" />
+          </Image.GestureRecognizers>
+        </Image>
+        <Image x:Name="clearCurrentImage" Source="clear_current.png" HeightRequest="40">
+          <Image.GestureRecognizers>
+            <TapGestureRecognizer x:Name="clearCurrentGesture"
+                                  NumberOfTapsRequired="1"
+                                  Tapped="clearTap" />
+          </Image.GestureRecognizers>
+        </Image>
+        <Image x:Name="fileManagerButtonImage" Source="clear_current.png" HeightRequest="40">
+          <Image.GestureRecognizers>
+            <TapGestureRecognizer x:Name="fileManagerButtonGesture"
+                                  NumberOfTapsRequired="1"
+                                  Tapped="fileManagerTap" />
+          </Image.GestureRecognizers>
+        </Image>
+      </StackLayout>
+    </StackLayout>
+  </ContentPage.Content>
+</ContentPage>

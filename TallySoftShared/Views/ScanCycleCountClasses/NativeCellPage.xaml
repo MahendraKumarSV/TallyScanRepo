@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:TallySoftShared" x:Class="TallySoftShared.NativeCellPage">
+	<ContentPage.Padding>
+	</ContentPage.Padding>
+	<ContentPage.Content>
+	<StackLayout Spacing="0">
+	<StackLayout Padding="10, 0, 10, 0" BackgroundColor="White">
+	<Label x:Name="FileNameLabel" Text="File Name" HorizontalOptions="Center" TranslationY="5" TextColor = "Black" Font = "25"/>
+	<local:MyEntry x:Name="BarcodeField" TextColor="Black" Placeholder="Barcode Appears Here" TranslationY="5" Focused = "Focussed" Completed="Entry_Completed" HorizontalOptions="Start" FontSize = "14" HeightRequest="40" BackgroundColor="#F2F2F2"/>
+	<Button x:Name="cameraButton" Image="camera" WidthRequest="35" HeightRequest="35" TranslationY="-37" Clicked="CameraBtnClick" HorizontalOptions = "End" TextColor = "Black" Font = "12" BackgroundColor = "Transparent"/>
+	<Image x:Name="ImgCameraButton"  HorizontalOptions="End"  Source="camera.png" TranslationY="-30">
+          <Image.GestureRecognizers>
+            <TapGestureRecognizer x:Name="Camera" NumberOfTapsRequired="1" Tapped="CameraBtnClick" />
+          </Image.GestureRecognizers>
+        </Image>
+	</StackLayout>
+	<StackLayout x:Name="headerStack" Padding="0,0,0,0" BackgroundColor="#C2D7EC" HeightRequest="50">
+	<Label x:Name = "Quantity" Text="QTY" HorizontalOptions="Start" TranslationY="10" TranslationX="20" TextColor="#70B856" Font="20" FontAttributes="Bold"></Label>
+	<Label x:Name = "ScanLabel" Text="Scan" HorizontalOptions="Center" TranslationX = "10" TranslationY="-22" TextColor="#70B856" Font="20" FontAttributes="Bold"></Label>
+	</StackLayout>
+	<StackLayout x:Name="listStack" Padding="0,15,0,0" BackgroundColor="Transparent">
+			<ListView x:Name="listView" ItemSelected="onItemSelected" SeparatorColor="Transparent" HasUnevenRows = "true" RowHeight = "-1">
+				<ListView.ItemTemplate>
+					<DataTemplate>
+						<local:NativeCell Quantity="{Binding quantity}" Sku="{Binding sku}" />
+					</DataTemplate>
+				</ListView.ItemTemplate>
+			</ListView>
+		</StackLayout>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,25 @@
+﻿{
+  "dependencies": {
+    "MarkerMetro.Unity.Pathfinding.Ionic.Zip": "2.0.0.14",
+    "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.2",
+    "Microsoft.NETNative.Analyzer": "1.0.0",
+    "Rg.Plugins.Popup": "1.0.0-pre5",
+    "SQLite.Net-PCL": "3.1.1",
+    "SQLite.Net.Async-PCL": "3.1.1",
+    "SQLite.Net.Core-PCL": "3.1.1",
+    "System.Linq.Expressions": "4.1.0",
+    "Xam.Plugins.Messaging": "3.2.1",
+    "Xamarin.Forms": "2.3.2.127"
+  },
+  "frameworks": {
+    "uap10.0": {}
+  },
+  "runtimes": {
+    "win10-arm": {},
+    "win10-arm-aot": {},
+    "win10-x86": {},
+    "win10-x86-aot": {},
+    "win10-x64": {},
+    "win10-x64-aot": {}
+  }
+}

@@ -1,0 +1,2 @@
+MainPackage=C:\Users\mahendra.kumar\Downloads\TallyScan\TallyScan\TallyScan.UniversalApp\bin\ARM\Debug\TallyScan.UniversalApp_1.0.8.0_ARM_Debug.appx
+SymbolPackage=C:\Users\mahendra.kumar\Desktop\AppPackage\TallyScanApp\TallyScan.UniversalApp_1.0.8.0_Debug_Test\TallyScan.UniversalApp_1.0.8.0_ARM_Debug.appxsym

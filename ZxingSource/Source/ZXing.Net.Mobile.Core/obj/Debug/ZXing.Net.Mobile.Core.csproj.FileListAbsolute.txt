@@ -1,0 +1,5 @@
+C:\Users\mahendra.kumar\Downloads\TallyScanSVN\TallyScan Latest Code\TallyScan Latest Code\ZxingSource\Build\Debug\core\ZXing.Net.Mobile.Core.dll
+C:\Users\mahendra.kumar\Downloads\TallyScanSVN\TallyScan Latest Code\TallyScan Latest Code\ZxingSource\Build\Debug\core\ZXing.Net.Mobile.Core.pdb
+C:\Users\mahendra.kumar\Downloads\TallyScanSVN\TallyScan Latest Code\TallyScan Latest Code\ZxingSource\Source\ZXing.Net.Mobile.Core\obj\Debug\ZXing.Net.Mobile.Core.csprojResolveAssemblyReference.cache
+C:\Users\mahendra.kumar\Downloads\TallyScanSVN\TallyScan Latest Code\TallyScan Latest Code\ZxingSource\Source\ZXing.Net.Mobile.Core\obj\Debug\ZXing.Net.Mobile.Core.dll
+C:\Users\mahendra.kumar\Downloads\TallyScanSVN\TallyScan Latest Code\TallyScan Latest Code\ZxingSource\Source\ZXing.Net.Mobile.Core\obj\Debug\ZXing.Net.Mobile.Core.pdb
