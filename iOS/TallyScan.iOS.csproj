@@ -66,7 +66,7 @@
     <MtouchUseSGen>true</MtouchUseSGen>
     <IpaPackageName>
     </IpaPackageName>
-    <CodesignProvision>c532ad33-cb90-4525-bc9c-63215afdf87c</CodesignProvision>
+    <CodesignProvision>cad4453e-2b47-4c46-bf54-4668f1415524</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
     <DebugSymbols>true</DebugSymbols>

@@ -2,16 +2,19 @@
 <Paths>
   <Jars></Jars>
   <ResolvedResourceDirectories>
-    <ResolvedResourceDirectory>/Users/mahendrakumar/Documents/Projects/TallyScanCode/ZxingSource/Source/ZXing.Net.Mobile.Forms.Android/obj/Debug/__library_projects__/Xamarin.Forms.Platform/library_project_imports/res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>/Users/mahendrakumar/Documents/Projects/TallyScanCode/ZxingSource/Source/ZXing.Net.Mobile.Forms.Android/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/mahendrakumar/Desktop/Projects KT/TallyScanGit/TallyScanRepo/ZxingSource/Source/ZXing.Net.Mobile.Forms.Android/obj/Debug/__library_projects__/Xamarin.Forms.Platform/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/mahendrakumar/Desktop/Projects KT/TallyScanGit/TallyScanRepo/ZxingSource/Source/ZXing.Net.Mobile.Forms.Android/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/mahendrakumar/Desktop/Projects KT/TallyScanGit/TallyScanRepo/ZxingSource/Source/ZXing.Net.Mobile.Forms.Android/obj/Debug/__library_projects__/ZXingNetMobile/library_project_imports/res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
     <ResolvedAssetDirectory>obj/Debug/__library_projects__/Xamarin.Forms.Platform/library_project_imports/assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/__library_projects__/ZXingNetMobile/library_project_imports/assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
-    <ResolvedResourceDirectoryStamp>/Users/mahendrakumar/Documents/Projects/TallyScanCode/ZxingSource/Source/ZXing.Net.Mobile.Forms.Android/obj/Debug/__library_projects__/Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>/Users/mahendrakumar/Documents/Projects/TallyScanCode/ZxingSource/Source/ZXing.Net.Mobile.Forms.Android/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/mahendrakumar/Desktop/Projects KT/TallyScanGit/TallyScanRepo/ZxingSource/Source/ZXing.Net.Mobile.Forms.Android/obj/Debug/__library_projects__/Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/mahendrakumar/Desktop/Projects KT/TallyScanGit/TallyScanRepo/ZxingSource/Source/ZXing.Net.Mobile.Forms.Android/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/mahendrakumar/Desktop/Projects KT/TallyScanGit/TallyScanRepo/ZxingSource/Source/ZXing.Net.Mobile.Forms.Android/obj/Debug/__library_projects__/ZXingNetMobile.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>

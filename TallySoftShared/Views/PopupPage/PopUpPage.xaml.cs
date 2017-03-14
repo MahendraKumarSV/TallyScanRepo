@@ -58,7 +58,6 @@ namespace TallySoftShared
 			this.BackgroundColor = Color.White;
 			NavigationPage.SetBackButtonTitle(this, "");
 
-
 			if (App.popupPageTitle != null)
 			{
 				headingLabel.Text = App.popupPageTitle;

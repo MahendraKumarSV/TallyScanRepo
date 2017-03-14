@@ -75,12 +75,13 @@ namespace TallySoftShared
 
 			this.BackgroundColor = Color.White;
 
-			fileNameLabel.Text = App.fileName;
+			FileNameLabel.Text = App.fileName;
 
 			barcodeField.WidthRequest = App.ScreenWidth - 75;
 
 			if (Device.OS == TargetPlatform.Android)
 			{
+				ImgCameraButton.IsVisible = false;
 				cameraButton.TranslationY = -50;
 				cameraButton.HeightRequest = 60;
 				cameraButton.WidthRequest = 60;
@@ -93,11 +94,12 @@ namespace TallySoftShared
 
 			else if (Device.OS == TargetPlatform.iOS)
 			{
+				ImgCameraButton.IsVisible = false;
 				headerStack.TranslationY = -30;
 				listView.TranslationY = -35;
-				quantity.TranslationY = 13;
-				scanLabel.TranslationY = -18;
-				scanLabel.TranslationX = 20;
+				Quantity.TranslationY = 13;
+				ScanLabel.TranslationY = -18;
+				ScanLabel.TranslationX = 20;
 			}
 
 			databaseCalls();
@@ -165,8 +167,14 @@ namespace TallySoftShared
 			barcodeField.Focus();
 		}
 
+		protected void checkKeyboard()
+		{
+			barcodeField.Focus();
+			showQtyPopup = App.showQtyPopup;
+		}
+
 		//Handle entry focus
-		protected void focussed(object sender, EventArgs e)
+		protected void Focussed(object sender, EventArgs e)
 		{
 			barcodeField.Text = "";
 
@@ -176,14 +184,8 @@ namespace TallySoftShared
 			}
 		}
 
-		protected void checkKeyboard()
-		{
-			barcodeField.Focus();
-			showQtyPopup = App.showQtyPopup;
-		}
-
 		//Handle entry completion
-		protected void entry_Completed(object sender, EventArgs e)
+		protected void Entry_Completed(object sender, EventArgs e)
 		{
 			if (barcodeField.Text != null && barcodeField.Text != String.Empty && barcodeField.Text.Trim().Length != 0)
 			{
@@ -492,7 +494,7 @@ namespace TallySoftShared
 #endif
 
 		//Handle Camera button click
-		protected async void cameraBtnClick(object sender, EventArgs e)
+		protected async void CameraBtnClick(object sender, EventArgs e)
 		{
 #if __ANDROID__
 			var status = PermissionStatus.Unknown;
@@ -591,6 +593,7 @@ namespace TallySoftShared
 			}
 		}
 	
+		#if __IOS__
 		/// <summary>
 		/// Checks the camera access.
 		/// </summary>
@@ -624,6 +627,7 @@ namespace TallySoftShared
 				// impossible, unknown authorization status
 			}
 		}
+		#endif
 
 		//Add a record to scandatatable
 		protected void addNewRecordToScanDataTable(string text)
